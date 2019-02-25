@@ -1,10 +1,10 @@
 
 .logo.fade
   display: none
-  left: 35px
+  left: 30px
   position: absolute
   top: 66px
-  width: 186px
+  width: 245px
 
   @media screen and (max-width: 1200px)
     visibility: hidden
@@ -119,11 +119,15 @@ h3.headline
     @media screen and (max-width: 1000px)
       margin-bottom: 0
 
-ul.reg li
-  font-size: 1em
-  padding-bottom: 10px
-  primary-type($serif, $regular)
-  line-height: 1.2em
+ul.reg
+  padding: 0px 0px 30px 60px
+
+  li
+    font-size: 1em
+    padding-bottom: 10px
+    primary-type($sans, $regular)
+    line-height: 1.2em
+    list-style: circle
 
 
 
@@ -146,6 +150,7 @@ ul.reg li
   img
     filter: grayscale(1)
     transition: filter 400ms ease
+    width: 140px
     z-index: 0
 
   & a
@@ -204,7 +209,7 @@ ul.reg li
         transform: rotate(180deg)
 
     &:before
-      background: url(http://zackmaddox.com/ngu/images/pin.svg) no-repeat center left transparent
+      background: url(http://zackmaddox.com/sec/images/pin.svg) no-repeat center left transparent
       content: ''
       display: block
       height: 50px
@@ -227,80 +232,34 @@ ul.reg li
     display: block
 
 .evans
-  left: 0
-  img
-    width: 160px
-
-.robinson
-  left: 35%
-
-  @media screen and (max-width: 1100px)
-    left: 40%
-
-  img
-    width: 135px
-
-.sullivan
-  left: 57%
-
-  @media screen and (max-width: 1100px)
-    left: 59%
-
-  img
-    width: 127px
-
-.greenup
-  left: 45%
-
-  @media screen and (max-width: 1100px)
-    left: 48%
-
-  img
-    width: 161px
-
-.peace
-  left: 11%
-
-  @media screen and (max-width: 1100px)
-    left: 16%
-
-  img
-    width: 145px
+  left: -20px
 
 .montgomery
-  left: 20%
-
-  @media screen and (max-width: 1100px)
-    left: 24%
-
-  img
-    width: 193px
-
-.keith
-  left: 82%
-
-  @media screen and (max-width: 1300px)
-    left: 79%
-
-  @media screen and (max-width: 1200px)
-    left: 77%
-
-  @media screen and (max-width: 1100px)
-    left: 75%
-
-  img
-    width: 146px
+  left: 36%
 
 .mathis
-  left: 67%
+  left: 54%
 
-  @media screen and (max-width: 1100px)
-    left: 65%
+.mangrum
+  left: 86%
 
-  img
-    width: 187px
+.sager
+  left: 65%
 
+.stanley
+  left: 17%
 
+.hall
+  left: 9%
+
+.stites
+  left: 27%
+
+.bilyeu
+  left: 76%
+
+.kinard
+  left: 45%
 
 
 /* ---------- staff bios ---------- */
@@ -315,7 +274,7 @@ ul.reg li
     display: block
 
   &:before
-    background: url(http://zackmaddox.com/ngu/images/pin.svg) no-repeat center left transparent
+    background: url(http://zackmaddox.com/sec/images/pin.svg) no-repeat center left transparent
     content: ''
     display: block
     height: 50px
@@ -581,7 +540,7 @@ a.next
     &:first-child
 
       &:before
-        background: url(http://zackmaddox.com/ngu/images/chair.svg) no-repeat center left transparent
+        background: url(http://zackmaddox.com/sec/images/chair.svg) no-repeat center left transparent
         content: ''
         display: block
         height: 40px

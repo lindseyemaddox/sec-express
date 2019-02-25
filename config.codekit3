@@ -84,7 +84,7 @@
 		"rrU": 0
 		},
 	"/public/css/styl/master.styl": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dS": 0,
 		"ft": 8,
@@ -218,17 +218,6 @@
 		"oAP": "/public/fonts/ngu.woff",
 		"oF": 0
 		},
-	"/public/images/betsey-sullivan.png": {
-		"ft": 32768,
-		"iS": 114565,
-		"oA": 0,
-		"oAP": "/public/images/betsey-sullivan.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/public/images/chair.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -239,22 +228,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/public/images/donna-robinson.png": {
+	"/public/images/chris-stites.png": {
 		"ft": 32768,
-		"iS": 100581,
+		"iS": 423015,
 		"oA": 0,
-		"oAP": "/public/images/donna-robinson.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/images/favicon/android-chrome-144x144.png": {
-		"ft": 32768,
-		"iS": 1949,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-144x144.png",
+		"oAP": "/public/images/chris-stites.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -263,7 +241,7 @@
 		},
 	"/public/images/favicon/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 2512,
+		"iS": 1185,
 		"oA": 0,
 		"oAP": "/public/images/favicon/android-chrome-192x192.png",
 		"oF": 0,
@@ -272,53 +250,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/public/images/favicon/android-chrome-256x256.png": {
-		"ft": 32768,
-		"iS": 3230,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-256x256.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/images/favicon/android-chrome-36x36.png": {
-		"ft": 32768,
-		"iS": 633,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-36x36.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/images/favicon/android-chrome-384x384.png": {
-		"ft": 32768,
-		"iS": 4724,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-384x384.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/images/favicon/android-chrome-48x48.png": {
-		"ft": 32768,
-		"iS": 788,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-48x48.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/public/images/favicon/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 6448,
+		"iS": 3863,
 		"oA": 0,
 		"oAP": "/public/images/favicon/android-chrome-512x512.png",
 		"oF": 0,
@@ -327,31 +261,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/public/images/favicon/android-chrome-72x72.png": {
-		"ft": 32768,
-		"iS": 1098,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/images/favicon/android-chrome-96x96.png": {
-		"ft": 32768,
-		"iS": 1371,
-		"oA": 0,
-		"oAP": "/public/images/favicon/android-chrome-96x96.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/public/images/favicon/apple-touch-icon-114x114-precomposed.png": {
 		"ft": 32768,
-		"iS": 1684,
+		"iS": 801,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-114x114-precomposed.png",
 		"oF": 0,
@@ -362,7 +274,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-114x114.png": {
 		"ft": 32768,
-		"iS": 1488,
+		"iS": 586,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-114x114.png",
 		"oF": 0,
@@ -373,7 +285,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-120x120-precomposed.png": {
 		"ft": 32768,
-		"iS": 1735,
+		"iS": 856,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-120x120-precomposed.png",
 		"oF": 0,
@@ -384,7 +296,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-120x120.png": {
 		"ft": 32768,
-		"iS": 1528,
+		"iS": 658,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-120x120.png",
 		"oF": 0,
@@ -395,7 +307,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-144x144-precomposed.png": {
 		"ft": 32768,
-		"iS": 2021,
+		"iS": 1018,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-144x144-precomposed.png",
 		"oF": 0,
@@ -406,7 +318,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 1846,
+		"iS": 775,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-144x144.png",
 		"oF": 0,
@@ -417,7 +329,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-152x152-precomposed.png": {
 		"ft": 32768,
-		"iS": 2168,
+		"iS": 1013,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-152x152-precomposed.png",
 		"oF": 0,
@@ -428,7 +340,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-152x152.png": {
 		"ft": 32768,
-		"iS": 1942,
+		"iS": 839,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-152x152.png",
 		"oF": 0,
@@ -439,7 +351,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-180x180-precomposed.png": {
 		"ft": 32768,
-		"iS": 2577,
+		"iS": 1252,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-180x180-precomposed.png",
 		"oF": 0,
@@ -450,7 +362,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-180x180.png": {
 		"ft": 32768,
-		"iS": 2276,
+		"iS": 988,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-180x180.png",
 		"oF": 0,
@@ -461,7 +373,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-57x57-precomposed.png": {
 		"ft": 32768,
-		"iS": 915,
+		"iS": 506,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-57x57-precomposed.png",
 		"oF": 0,
@@ -472,7 +384,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-57x57.png": {
 		"ft": 32768,
-		"iS": 841,
+		"iS": 393,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-57x57.png",
 		"oF": 0,
@@ -483,7 +395,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-60x60-precomposed.png": {
 		"ft": 32768,
-		"iS": 958,
+		"iS": 517,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-60x60-precomposed.png",
 		"oF": 0,
@@ -494,7 +406,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-60x60.png": {
 		"ft": 32768,
-		"iS": 856,
+		"iS": 394,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-60x60.png",
 		"oF": 0,
@@ -505,7 +417,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-72x72-precomposed.png": {
 		"ft": 32768,
-		"iS": 1089,
+		"iS": 595,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-72x72-precomposed.png",
 		"oF": 0,
@@ -516,7 +428,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-72x72.png": {
 		"ft": 32768,
-		"iS": 1013,
+		"iS": 446,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-72x72.png",
 		"oF": 0,
@@ -527,7 +439,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-76x76-precomposed.png": {
 		"ft": 32768,
-		"iS": 1194,
+		"iS": 610,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-76x76-precomposed.png",
 		"oF": 0,
@@ -538,7 +450,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-76x76.png": {
 		"ft": 32768,
-		"iS": 1021,
+		"iS": 462,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-76x76.png",
 		"oF": 0,
@@ -549,7 +461,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
-		"iS": 2577,
+		"iS": 1252,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon-precomposed.png",
 		"oF": 0,
@@ -560,7 +472,7 @@
 		},
 	"/public/images/favicon/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 2276,
+		"iS": 988,
 		"oA": 0,
 		"oAP": "/public/images/favicon/apple-touch-icon.png",
 		"oF": 0,
@@ -578,7 +490,7 @@
 		},
 	"/public/images/favicon/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 434,
+		"iS": 300,
 		"oA": 0,
 		"oAP": "/public/images/favicon/favicon-16x16.png",
 		"oF": 0,
@@ -589,7 +501,7 @@
 		},
 	"/public/images/favicon/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 619,
+		"iS": 337,
 		"oA": 0,
 		"oAP": "/public/images/favicon/favicon-32x32.png",
 		"oF": 0,
@@ -605,20 +517,9 @@
 		"oAP": "/public/images/favicon/favicon.ico",
 		"oF": 0
 		},
-	"/public/images/favicon/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 2119,
-		"oA": 0,
-		"oAP": "/public/images/favicon/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/public/images/favicon/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 1887,
+		"iS": 823,
 		"oA": 0,
 		"oAP": "/public/images/favicon/mstile-150x150.png",
 		"oF": 0,
@@ -627,33 +528,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/public/images/favicon/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 1865,
-		"oA": 0,
-		"oAP": "/public/images/favicon/mstile-310x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/public/images/favicon/mstile-310x310.png": {
 		"ft": 32768,
-		"iS": 3797,
+		"iS": 1824,
 		"oA": 0,
 		"oAP": "/public/images/favicon/mstile-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/images/favicon/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 1502,
-		"oA": 0,
-		"oAP": "/public/images/favicon/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -688,14 +567,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/public/images/joan-peace.png": {
+	"/public/images/jennifer-hall.png": {
 		"ft": 32768,
-		"iS": 143567,
+		"iS": 371934,
 		"oA": 0,
-		"oAP": "/public/images/joan-peace.png",
+		"oAP": "/public/images/jennifer-hall.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -710,11 +589,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/public/images/kyle-greenup.png": {
+	"/public/images/kathy-kinard.png": {
 		"ft": 32768,
-		"iS": 235408,
+		"iS": 340715,
 		"oA": 0,
-		"oAP": "/public/images/kyle-greenup.png",
+		"oAP": "/public/images/kathy-kinard.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -727,8 +606,8 @@
 		"oA": 0,
 		"oAP": "/public/images/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -742,6 +621,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/public/images/mark-bilyeu.png": {
+		"ft": 32768,
+		"iS": 573807,
+		"oA": 0,
+		"oAP": "/public/images/mark-bilyeu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/mark-sager.png": {
+		"ft": 32768,
+		"iS": 476177,
+		"oA": 0,
+		"oAP": "/public/images/mark-sager.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/public/images/overlay.png": {
 		"ft": 32768,
 		"iS": 545,
@@ -750,6 +651,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/paul-mangrum.png": {
+		"ft": 32768,
+		"iS": 548948,
+		"oA": 0,
+		"oAP": "/public/images/paul-mangrum.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -762,17 +674,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/public/images/ruby-keith.png": {
-		"ft": 32768,
-		"iS": 105544,
-		"oA": 0,
-		"oAP": "/public/images/ruby-keith.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/public/images/snipe.svg": {
 		"ft": 2097152,
@@ -795,6 +696,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/public/images/tom-stanley.png": {
+		"ft": 32768,
+		"iS": 382668,
+		"oA": 0,
+		"oAP": "/public/images/tom-stanley.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/public/images/video.jpg": {
 		"ft": 16384,
 		"iS": 159699,
@@ -805,13 +717,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/public/includes/faq.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/public/includes/faq.html",
-		"oF": 0
 		},
 	"/public/includes/faq.pug": {
 		"cB": 0,
@@ -905,6 +810,45 @@
 		"oAP": "/public/video/.htaccess",
 		"oF": 0
 		},
+	"/public/video/1926664-hd.jpg": {
+		"ft": 16384,
+		"iS": 453696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public/video/1926664-hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public/video/1926664-hd.m4v": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/video/1926664-hd.m4v",
+		"oF": 0
+		},
+	"/public/video/1926664-hd.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/video/1926664-hd.mp4",
+		"oF": 0
+		},
+	"/public/video/1926664-hd.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/video/1926664-hd.ogv",
+		"oF": 0
+		},
+	"/public/video/1926664-hd.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/video/1926664-hd.webm",
+		"oF": 0
+		},
 	"/public/video/flashfox.swf": {
 		"cB": 0,
 		"ft": 8192,
@@ -921,31 +865,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/public/video/leaves.jpg": {
-		"ft": 16384,
-		"iS": 88315,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/public/video/leaves.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/public/video/leaves.m4v": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/public/video/leaves.m4v",
-		"oF": 0
-		},
-	"/public/video/leaves.webm": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/public/video/leaves.webm",
-		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -974,38 +893,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/views/contact-failure.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/views/contact-failure.html",
-		"oF": 0
-		},
-	"/views/contact-failure.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/views/contact-failure.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"/views/contact-success.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/views/contact-success.html",
-		"oF": 0
-		},
-	"/views/contact-success.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/views/contact-success.html",
-		"oF": 0,
-		"oS": 0
 		},
 	"/views/default.pug": {
 		"cB": 0,
@@ -1039,7 +926,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 572139494.16463602,
-	"displayValue": "ngu-node",
+	"displayValue": "sec-express",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/public/images/favicon/apple-touch-icon-120x120.png",
 	"iconImageWasSetByUser": 0

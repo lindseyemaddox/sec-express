@@ -1,0 +1,47 @@
+
+span.label
+  color: $white
+  font-size: .4em
+  left: 60px
+  letter-spacing: 2px
+  position: absolute
+  text-transform: uppercase
+  top: 7px
+  transition: all 300ms ease
+  primary-type($sans,$bold)
+  line-height: 1.1em
+
+  &.multi
+    top: 2px
+
+[class^="icon-"], [class*=" icon-"]
+  font-size: 2em
+  padding: 0 0 40px
+  position: relative
+  text-decoration: none
+
+li
+
+  a
+    cursor: pointer
+    opacity: .5
+    transition: opacity 400ms ease
+
+    &:hover
+      opacity: .9
+
+  &.active span,
+  &.active a
+    color: $white
+    opacity: 1
+
+  &.active a:before
+    color: $white
+    opacity: 1
+
+  &:hover.active a:before
+    color: $white
+
+  a:hover:before
+    color: $white
+    opacity: 1

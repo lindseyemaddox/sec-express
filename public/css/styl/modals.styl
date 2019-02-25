@@ -1,0 +1,258 @@
+
+@keyframes example
+  from {opacity: 0}
+  to {opacity:1}
+
+.modal
+  display: none
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  overflow: auto
+  background-color: rgba($darkest, .9)
+
+.modal:target
+  display: block
+  position: fixed
+  z-index: 9999
+
+.modal-content
+  animation-name: example
+  animation-duration: 500ms
+  background-color: transparent
+  border: 1px solid $white
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  margin: auto
+  max-width: 400px
+  position: relative
+  padding: 0
+  outline: 0
+  top: 8vh
+  width: auto
+
+#links .modal-content
+  max-width: 700px
+
+.bio
+  .modal-content
+    // max-width: 500px
+
+    p
+      font-size: .9375em
+      primary-type($serif, $regular)
+      line-height: 1.6em
+      padding-bottom: 20px
+
+    a.arrow
+      color: $white
+
+      &:hover
+        color: $gold
+
+.closebtn
+  color: rgba($white, .7)
+  font-size: 12px
+  letter-spacing: 3px
+  position: absolute
+  primary-type($sans, $semi-bold)
+  right: 20px
+  text-decoration: none
+  text-transform: uppercase
+  top: 20px
+  z-index: 999
+
+.closebtn:hover
+  color: $gold
+  text-decoration: none
+  cursor: pointer
+
+#testimonials
+  p
+    border-bottom: 1px solid $white
+    padding: 0 0 30px
+    margin: 0 0 20px
+
+    &.last
+      border: none
+
+.container
+    padding: 70px 30px 40px
+
+  .headline
+    color: $white
+    font-size: 1.3em
+    padding-bottom: 20px
+    primary-type($sans, $semi-bold)
+
+  .column
+    display: inline-block
+    width: 48%
+
+    &:first-child
+      margin-right: 3%
+
+  p
+    color: $white
+    font-size: .8em
+    primary-type($sans, $semi-bold)
+    text-transform: none
+
+  h3
+    color: $white
+    font-size: 1.3em
+    letter-spacing: 2px
+    primary-type($sans, $semi-bold)
+    text-transform: uppercase
+
+  h4
+    color: $white
+    font-size: .8em
+    letter-spacing: 3px
+    padding-bottom: 14px
+    primary-type($sans, $semi-bold)
+    text-transform: uppercase
+
+[id^="more"], [id*=" more"]
+  .container
+    padding-top: 30px
+
+#links
+  a
+    color: $white
+    display: block
+    primary-type($sans, $light)
+    line-height: 2em
+
+    &:hover
+      color: $light-blue
+
+    // &:visited
+    //   color: $medium-blue
+
+  a.closebtn
+    color: rgba($white, .7)
+
+    &:hover
+      color: $gold
+
+  .modal-content
+    width: 80%
+
+#morefaq, .bio .modal
+  background-color: rgba($darkest, 0.9)
+  height: 100%
+  left: 0
+  top: 0
+  width: 100%
+  z-index: 999
+
+  .modal-content
+    background-color: transparent
+    bottom: 10vh
+    max-width: 900px
+    top: 10vh
+    width: 80vw
+
+  .closebtn
+    color: rgba($white, .7)
+
+  p.a:last-child
+    border: none
+    padding-bottom: 100px
+
+.bio .modal .modal-content
+  max-width: 400px
+
+.portal
+  color: $white
+  font-size: .7em
+  letter-spacing: 2px
+  primary-type($sans, $semi-bold)
+  text-transform: uppercase
+
+  a
+    display: inline
+
+    &:hover
+      color: $gold
+
+ #contact, #claim
+
+  .modal-content
+    background-color: transparent
+    border: 1px solid $white
+    max-width: 400px
+
+#claim .modal-content
+  max-width: 400px
+
+  p, h4
+    letter-spacing: 2px
+    margin-bottom: 20px
+
+    span
+      color: $light-blue
+      text-transform: uppercase
+
+form, #claim .container
+  color: $white
+  letter-spacing: 4px
+  margin: 0 auto
+  primary-type($sans, $semi-bold)
+  text-transform: uppercase
+
+  h4
+    font-size: 1em
+
+  p.data
+    font-size: .9em
+
+  input, p
+    font-size: .8em
+    margin: 4px 0 20px
+    width: 100%
+
+  textarea
+    height: 100px
+    margin-bottom: 20px
+    width: 100%
+
+  .error
+    color: #FF0000
+
+  a
+    color: $light-blue
+    cursor: pointer
+    display: inline
+    primary-type($sans, $bold)
+    text-transform: uppercase
+    transition: all 400ms ease
+
+    &:hover
+      color: $gold
+
+  a.closebtn
+    color: rgba($white, .7)
+    font-size: 12px
+
+    &:hover
+      color: $gold
+      text-decoration: none
+
+  button, .login
+    background-color: transparent
+    border: 1px solid $white
+    color: $white
+    display: block
+    letter-spacing: 4px
+    padding: 10px 0
+    text-align: center
+    text-transform: uppercase
+    width: 100%
+
+    &:hover
+      background-color: $light-blue
+      border: none
+      text-decoration: none

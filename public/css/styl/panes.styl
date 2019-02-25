@@ -1,0 +1,594 @@
+
+.logo.fade
+  display: none
+  left: 35px
+  position: absolute
+  top: 66px
+  width: 186px
+
+  @media screen and (max-width: 1200px)
+    visibility: hidden
+
+  &.snipe
+    visibility: hidden
+
+    @media screen and (max-width: 1200px)
+      visibility: visible
+      left: 20px
+      top: 20px
+      width: 30px
+
+#intro .logo
+  width: 523px
+  margin-bottom: 62px
+  margin-top: $top-margin - 56px
+
+  @media screen and (max-width: 1200px)
+    margin-top: 108px
+    width: 333px
+
+  @media screen and (max-width: 700px)
+    margin-bottom: 47px
+    width: 222px
+
+.poop:target .logo.small
+  display: block
+
+a
+  color: $lightest-blue
+  text-decoration: none
+  transition: color 400ms ease
+  &:hover
+    color: $gold
+
+.tagline
+  font-size: 1.625em
+  letter-spacing: 0
+  margin-bottom: 40px
+  padding-bottom: 0
+  primary-type($serif, $bold)
+  line-height: 1.65em
+  text-transform: none
+
+  @media screen and (max-width: 900px)
+    font-size: 1.3em
+    font-weight: $regular
+    line-height: 1.5em
+    margin-bottom: 20px
+
+h2.subhead
+  font-size: 1.375em
+  margin-bottom: 40px
+  primary-type($serif, $regular)
+  font-style: italic
+  line-height: 1.636em
+
+  @media screen and (max-width: 900px)
+    margin-bottom: 20px
+    line-height: 1.3em
+
+p
+  &.intro
+    font-size: 1.125em
+    primary-type($sans, $regular)
+    line-height: 1.666em
+
+  &.subhead
+    font-size: 1.125em
+    margin-bottom: 30px
+    primary-type($serif, $regular)
+    line-height: 1.666em
+
+    @media screen and (max-width: 1200px)
+      line-height: 1.4em
+      margin-bottom: 15px
+
+h3.headline
+  font-size: 1.125em
+  letter-spacing: 1px
+  margin-bottom: 10px
+  primary-type($sans, $regular)
+  line-height: 1.333em
+  text-transform: uppercase
+
+  @media screen and (max-width: 1300px)
+    padding-bottom: 0
+
+  @media screen and (max-width: 1000px)
+    letter-spacing: 0
+    primary-type($serif, $regular)
+    text-transform: none
+
+.three li
+  font-size: 1.125em
+  padding-bottom: 10px
+  primary-type($serif, $bold)
+  line-height: 1.2em
+
+  @media screen and (max-width: 1000px)
+    font-size: 1em
+    font-weight: $regular
+
+  &.head
+    font-size: 1.25em
+    letter-spacing: 3px
+    margin-bottom: 10px
+    primary-type($serif, $bold)
+    text-transform: uppercase
+
+    @media screen and (max-width: 1000px)
+      margin-bottom: 0
+
+ul.reg li
+  font-size: 1em
+  padding-bottom: 10px
+  primary-type($serif, $regular)
+  line-height: 1.2em
+
+
+
+
+/* ---------- staff image ----------*/
+
+
+
+
+.name
+  opacity: 0
+
+.staff
+  height: 28vh
+  position: relative
+
+  @media screen and (max-width: 800px)
+    display: none
+
+  img
+    filter: grayscale(1)
+    transition: filter 400ms ease
+    z-index: 0
+
+  & a
+    bottom: 0
+    color: $white
+    position: absolute
+
+    &:first-child
+      filter: grayscale(0)
+      z-index: 1
+
+    &:hover
+      img
+        filter: grayscale(0)
+
+      .name
+        opacity: 1
+
+    &.selected .name
+      background-color: $light-blue
+      opacity: 1
+      z-index: 2
+
+    &.selected img
+      filter: none
+
+    &:first-child .name
+      background-color: $light-blue
+      z-index: 2
+
+    &:hover .name
+      z-index: 3
+
+  .name
+    background-color: $dark-blue
+    font-size: .8em
+    height: 10px
+    left: 36%
+    letter-spacing: 2px
+    padding: 4px 15px 14px 40px
+    position: absolute
+    primary-type($sans, $light)
+    text-transform: uppercase
+    top: -50px
+    transition: opacity 400ms ease
+    white-space: nowrap
+    width: auto
+    z-index: 9
+
+    &.bottom
+      bottom: 17px
+      top: inherit
+
+      &:before
+        top: -16px
+        transform: rotate(180deg)
+
+    &:before
+      background: url(http://zackmaddox.com/ngu/images/pin.svg) no-repeat center left transparent
+      content: ''
+      display: block
+      height: 50px
+      left: -3px
+      position: absolute
+      top: -5px
+      width: 50px
+
+    &:hover
+      color: $white
+      cursor: pointer
+
+.bio:first-child
+  display: block
+
+.bio
+  display: none
+
+  &.show
+    display: block
+
+.evans
+  left: 0
+  img
+    width: 160px
+
+.robinson
+  left: 35%
+
+  @media screen and (max-width: 1100px)
+    left: 40%
+
+  img
+    width: 135px
+
+.sullivan
+  left: 57%
+
+  @media screen and (max-width: 1100px)
+    left: 59%
+
+  img
+    width: 127px
+
+.greenup
+  left: 45%
+
+  @media screen and (max-width: 1100px)
+    left: 48%
+
+  img
+    width: 161px
+
+.peace
+  left: 11%
+
+  @media screen and (max-width: 1100px)
+    left: 16%
+
+  img
+    width: 145px
+
+.montgomery
+  left: 20%
+
+  @media screen and (max-width: 1100px)
+    left: 24%
+
+  img
+    width: 193px
+
+.keith
+  left: 82%
+
+  @media screen and (max-width: 1300px)
+    left: 79%
+
+  @media screen and (max-width: 1200px)
+    left: 77%
+
+  @media screen and (max-width: 1100px)
+    left: 75%
+
+  img
+    width: 146px
+
+.mathis
+  left: 67%
+
+  @media screen and (max-width: 1100px)
+    left: 65%
+
+  img
+    width: 187px
+
+
+
+
+/* ---------- staff bios ---------- */
+
+.bio
+  margin: 40px 0 0 27px
+  position: relative
+
+  &:after
+    clear: both
+    content: ''
+    display: block
+
+  &:before
+    background: url(http://zackmaddox.com/ngu/images/pin.svg) no-repeat center left transparent
+    content: ''
+    display: block
+    height: 50px
+    left: -56px
+    position: absolute
+    top: -16px
+    transform: rotate(-90deg)
+    width: 50px
+
+  .fax:hover
+    color: inherit
+    transition: none
+
+  h4.employee
+    font-size: 0.9375em
+    padding-bottom: 8px
+    primary-type($sans, $semi-bold)
+    letter-spacing: 3px
+    line-height: 1.2em
+    text-transform: uppercase
+
+    @media screen and (max-width: 900px)
+      padding-bottom: 4px
+
+  h5.title
+    font-size: 0.6875em
+    padding: 5px 0
+    primary-type($sans, $regular)
+    letter-spacing: 1px
+    text-transform: uppercase
+
+  a
+    color: $white
+    display: block
+    font-size: 0.9375em
+    primary-type($sans, $regular)
+    line-height: 2em
+
+    &:hover
+      color: $lightest-blue
+
+    &.email
+      font-size: .8em
+      letter-spacing: 2px
+      primary-type($sans, $regular)
+      line-height: 2em
+      text-transform: uppercase
+
+    &.headshot
+      display: none
+
+  .card
+    float: left
+    width: 32%
+
+  .story
+    float: left
+    margin-left: 3%
+    width: 65%
+
+    p
+      font-size: 1em
+      primary-type($serif, $regular)
+      line-height: 1.6em
+      padding-bottom: 20px
+
+@media screen and (max-width: 800px)
+
+  .bio
+    border: 1px solid $white
+    display: block
+    height: auto
+    padding: 20px 0 20px 20px
+
+    &:before
+      left: -36px
+      top: 4px
+
+    h4.employee
+      padding-top: 3px
+
+    .story
+      float: right
+      margin-right: 3%
+      width: 64%
+
+    .card
+      float: left
+      width: 30%
+      margin-left: 0
+
+      .fax
+        display: none
+
+    .modal-content p
+      font-size: 1em
+
+@media screen and (max-width: 600px)
+
+  .bio
+    .story, .card
+      float: none
+      margin: 0
+      width: 90%
+
+    .card
+      margin-bottom: 20px
+
+@media screen and (max-width: 400px)
+
+  .bio
+    border: none
+    padding: 0
+
+    &:before
+      left: -54px
+      top: -14px
+
+    a.arrow
+      margin-top: 0
+
+
+// ---------------------- perspective -----------------------
+
+#perspective
+  p.intro
+    line-height: 1.5em
+    padding-bottom: 20px
+
+    &:nth-child(3)
+      margin-top: 40px
+
+
+// ---------------------- faq -----------------------
+
+p.q
+  font-size: 1.125em
+  primary-type($serif, $medium)
+  line-height: 1.333em
+  padding-top: 36px
+
+  @media screen and (max-width: 1000px)
+    padding-top: 26px
+
+p.a
+  font-size: 1em
+  border-bottom: 1px solid rgba($white, .5)
+  primary-type($sans, $light)
+  line-height: 1.333em
+  padding: 14px 0 36px
+
+  @media screen and (max-width: 1000px)
+    padding-bottom: 26px
+
+// ---------------------- forms -----------------------
+
+.forms
+  position: relative
+
+#resources
+
+  p.intro
+    line-height: 1.25em
+    margin-top: 75px
+
+    &:first-of-type
+      margin-top: 0
+
+a.arrow
+  color: $white
+  display: block
+  font-size: .8em
+  letter-spacing: 2px
+  margin-top: 20px
+  primary-type($sans, $light)
+  text-align: right
+  text-transform: uppercase
+  transition: color 400ms ease
+
+  &:after
+    content: "\e902"
+    font-family: 'ngu'
+    padding-left: 10px
+    transition: all 400ms ease
+
+  &:hover
+    color: $gold
+
+    &:after
+      margin-right: -10px
+      padding-left: 20px
+
+  .full
+    display: inline
+
+    @media screen and (max-width: 1000px)
+      display: none
+
+  @media screen and (max-width: 1000px)
+    .mobile
+      display: inline
+
+
+
+
+// ---------------------- next arrowss -----------------------
+
+
+a.next
+  bottom: 8vh
+  color: $white
+  font-size: 9px
+  letter-spacing: 4px
+  position: absolute
+  primary-type($sans, $regular)
+  text-align: center
+  text-transform: uppercase
+  width: 100%
+
+  @media screen and (max-width: 1300px)
+    display: none
+
+  span
+    animation: next 1s ease 3s infinite alternate
+    bottom: 0
+    color: $white
+    padding: 0
+    position: relative
+    text-align: center
+    transform: rotate(90deg)
+    width: 100%
+
+
+// ---------------------- quick nav tab -----------------------
+
+
+.tab
+  top: 0
+  right: 0
+  padding: 20px 54px 20px 30px
+  position: fixed
+  z-index: 9999
+
+  @media screen and (max-width: 1500px)
+    position: relative
+
+  a
+    color: $white
+    display: block
+    font-size: 10px
+    letter-spacing: 3px
+    opacity: .5
+    position: relative
+    primary-type($sans, $light)
+    line-height: 22px
+    text-align: right
+    text-transform: uppercase
+
+    &:hover
+      color: $white
+      opacity: 1
+
+    &:first-child
+
+      &:before
+        background: url(http://zackmaddox.com/ngu/images/chair.svg) no-repeat center left transparent
+        content: ''
+        display: block
+        height: 40px
+        right: -40px
+        position: absolute
+        top: 0
+        width: 30px
+
+      &:hover:before
+        opacity: .5
